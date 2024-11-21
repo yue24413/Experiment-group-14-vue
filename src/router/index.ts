@@ -7,12 +7,16 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/views/main/IndexView.vue'),
     children: [
       {
+        path: '',
+        component: () => import('@/views/main/index.vue'),
+      },
+      {
         path: 'test',
         component: () => import('@/views/main/test/IndexView.vue'),
         children: [
           {
             path: '',
-            component: () => import('@/views/main/test/index.vue'),
+            component: () => import('@/views/main/index.vue'),
           },
           {
             path: 'test1',
