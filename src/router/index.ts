@@ -20,29 +20,23 @@ const routes: RouteRecordRaw[] = [
           },
           {
             path: 'test1',
-            component: () => import('@/views/main/test/test1.vue'),
-            children:[
-              {
-                path:'info/:id',
-                component:()=>import('@/views/main/test/infoHe.vue')
-              }
-            ]
+            component: () => import('@/views/main/test/test1/IndexView.vue'),
           },
           {
             path: 'test2',
-            component: () => import('@/views/main/test/test2.vue'),
+            component: () => import('@/views/main/test/test2/IndexView.vue'),
           },
           {
             path: 'test3',
-            component: () => import('@/views/main/test/test3.vue'),
+            component: () => import('@/views/main/test/test3/IndexView.vue'),
           },
           {
             path: 'test4',
-            component: () => import('@/views/main/test/test4.vue'),
+            component: () => import('@/views/main/test/test4/IndexView.vue'),
           },
           {
             path: 'test5',
-            component: () => import('@/views/main/test/test5.vue'),
+            component: () => import('@/views/main/test/test5/IndexView.vue'),
           },
         ],
       },

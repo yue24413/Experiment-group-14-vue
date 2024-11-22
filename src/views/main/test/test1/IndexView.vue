@@ -137,7 +137,7 @@ const changeBackground = (index: number) => {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    background-image: url(../../../assets/pic/image.png);
+    background-image: url(../../../../assets/pic/image.png);
     background-color: rgb(249, 249, 249);
     background-position-x: left;
     background-position-y: top;
@@ -278,7 +278,7 @@ const changeBackground = (index: number) => {
 
 .info {
   display: flex;
-  background-image: url(../../../assets/pic/back2.jpg);
+  background-image: url(../../../../assets/pic/back2.jpg);
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: nowrap;
