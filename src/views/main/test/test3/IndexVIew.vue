@@ -59,19 +59,16 @@ function ServiceClick(id) {
 }
 </script>
 <template>
-  <div><h1>我是程天鑫</h1></div>
   <div id="Service">
-    <div class="container text-center">
-      <h3>铠甲勇士拿瓦</h3>
-      <p style="color: #b2b2b2">欧克瑟杀戮机</p>
+    <div class="container text-center" style="display: flex;justify-content: center;" >
+      <h3 style="margin: auto;font-size: larger;">铠甲勇士拿瓦</h3>
     </div>
     <div class="container">
       <div class="Service-container row" style="width: 100%;">
         <div
-          class="Service-item col-xs-12 col-sm-6 col-md-2  wow slideInUp"
+          class="Service-item col-xs-12 col-sm-6 col-md-2 "
           v-for="(item, index) in serviceList"
           :key="index"
-          @click="ServiceClick(item.id)"
         >
           <div class="Service-item-wrapper">
             <div class="Service-item-top">
@@ -86,7 +83,10 @@ function ServiceClick(id) {
           </div>
         </div>
       </div>
+      <div><img src="@/assets/img/oukese.png" alt=""></div>
+      <div>一瑟以瑟辈瑟名场面</div>
     </div>
+    
   </div>
 </template>
 <style scoped>
