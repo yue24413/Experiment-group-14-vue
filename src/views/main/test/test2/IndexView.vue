@@ -1,9 +1,5 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 <template>
-<div></div>
-</template><template>
   <div class="shell" id="shell">
     <div class="header">
       <h2 class="title">飞逝</h2>
