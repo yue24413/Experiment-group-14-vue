@@ -187,7 +187,7 @@ background-color: var(--bs-light);
           <nav class="navbar navbar-expand-lg px-lg-5">
             <div class="container-fluid py-3">
               <a class="navbar-brand" href="#logo">
-                <img src="images/Logo.png" alt="Logo">
+                <img src=@/assets/test5/images/Logo.png" alt="Logo">
               </a>
               <button
               class="navbar-toggler"
@@ -226,7 +226,7 @@ background-color: var(--bs-light);
             <div class="container">
               <div class="row g-4 flex-row-reverse align-items-center">
                 <div class="col-md-6 text-center">
-                    <img src="images/billboard-1.png" class="img-fluid">
+                    <img src="@/assets/test5/billboard-1.png" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                   <h1 class="mb-4">
@@ -266,7 +266,7 @@ background-color: var(--bs-light);
                <div class="row align-items-center">
                   <div class="col">
                       <div >
-                         <img src="images/product-1.png" class="img-fluid">
+                         <img src="@/assets/test5/product-1.png" class="img-fluid">
                       </div>
                   </div>
                   <div class="col text-start">
@@ -302,7 +302,7 @@ background-color: var(--bs-light);
                       </p>
                     </div>
                     <div class="col-md-6">
-                        <img src="images/product-2.png" class="img-fluid">
+                        <img src="@/assets/test5/product-2.png" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -315,7 +315,7 @@ background-color: var(--bs-light);
              <div class="row align-items-center">
                 <div class="col">
                     <div >
-                       <img src="images/product-9.png" class="img-fluid">
+                       <img src="@/assets/test5/product-9.png" class="img-fluid">
                     </div>
                 </div>
                 <div class="col text-start">
