@@ -3,7 +3,7 @@
 
 
 <style typle="style/css">
-:root {
+
 :root {
   font-family: "Montserrat", sans-serif;
   --body-font: "Montserrat", sans-serif;
@@ -187,7 +187,7 @@ background-color: var(--bs-light);
           <nav class="navbar navbar-expand-lg px-lg-5">
             <div class="container-fluid py-3">
               <a class="navbar-brand" href="#logo">
-                <img src=@/assets/test5/images/Logo.png" alt="Logo">
+                <img src="@/assets/test5/images/Logo.png" alt="Logo">
               </a>
               <button
               class="navbar-toggler"
