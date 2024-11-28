@@ -6,15 +6,15 @@ const menus = ref<{ name: string; path: string }[]>([])
 
 menus.value.push(
   {
-    name: '铠甲勇士1',
+    name: 'yanlong',
     path: '/test/test1',
   },
   {
-    name: '铠甲勇士2',
+    name: 'xingtian',
     path: '/test/test2',
   },
   {
-    name: '铠甲勇士3',
+    name: 'nawa',
     path: '/test/test3',
   },
   {
